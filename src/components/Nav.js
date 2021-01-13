@@ -70,7 +70,7 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Hem</NavLink>
+            <NavLink to="/">Hem - DUPA</NavLink>
             <NavLink to="/components/">Kvinnliga uppfinnare</NavLink>
             <div
               className={`Nav--Group ${this.state.activeSubNav === 'posts' ? 'active' : ''
